@@ -25,7 +25,7 @@ function Product() {
     }, [productId]);
 
     return (
-        <div className="w-[1536px] max-[1536px]:w-full mx-auto min-h-[calc(100vh-76px-32px)]">
+        <div className="w-[1536px] max-[1536px]:w-full mx-auto min-h-[calc(100vh-76px-172px)]">
             <div className='flex flex-col gap-4 py-12 max-[1200px]:py-10 max-[800px]:py-8 max-[500px]:py-6 mx-[50px] max-[1200px]:mx-[35px] max-[800px]:mx-4'>
                 <h1 className='text-4xl max-[1200px]:text-3xl max-[800px]:text-2xl max-[500px]:text-xl font-semibold'>{product?.name}</h1>
 

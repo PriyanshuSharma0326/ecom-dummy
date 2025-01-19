@@ -24,7 +24,7 @@ function ProductsListing() {
     }, [selectedCategory]);
 
     return (
-        <div className='w-[1536px] max-[1536px]:w-full mx-auto min-h-[calc(100vh-76px-32px)]'>
+        <div className='w-[1536px] max-[1536px]:w-full mx-auto min-h-[calc(100vh-76px-172px)]'>
             <div className="no-scrollbar pt-4 flex items-center gap-4 px-[50px] max-[1200px]:px-[35px] max-[800px]:px-4 overflow-x-scroll">
                 {shopData.map(category => {
                     return (

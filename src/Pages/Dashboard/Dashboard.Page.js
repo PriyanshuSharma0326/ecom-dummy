@@ -30,7 +30,7 @@ function Dashboard() {
     }, []);
 
     return (
-        <div ref={containerRef} style={{ minHeight: `calc(100vh - 76px - 32px - ${containerHeight}px)` }} className='w-[1536px] max-[1536px]:w-full mx-auto'>
+        <div ref={containerRef} style={{ minHeight: `calc(100vh - 76px - 172px - ${containerHeight}px)` }} className='w-[1536px] max-[1536px]:w-full mx-auto'>
             <div className="py-12 max-[1200px]:py-10 max-[800px]:py-8 max-[500px]:py-6 grid grid-cols-4 max-[1200px]:grid-cols-3 max-[800px]:grid-cols-2 max-[500px]:grid-cols-1 gap-x-6 gap-y-6 mx-[50px] max-[1200px]:mx-[35px] max-[800px]:mx-4">
                 {shopData.map(category => {
                     return (
